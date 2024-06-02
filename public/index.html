@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>ようてんのページ</title>
+  <meta name="description" content="ようてんのページ">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-W29KJ1FSNS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-W29KJ1FSNS');
+  </script>
+</head>
+
+<body>
+  <header id="header">
+    <div class="header-inner wrapper">
+
+      <nav id="navi">
+        <ul>
+          <li>
+            <a href="https://github.com/youten410">
+              <img src="img/github-color.svg" alt="GitHub" style="width: 15px; height: 15px;"> GitHub
+            </a>
+          </li>
+
+          <li>
+            <a href="https://zenn.dev/410">
+              <img src="img/zenn-color.svg" alt="Zenn" style="width: 15px; height: 15px;"> Zenn
+            </a>
+          </li>
+
+          <li>
+            <a href="https://twitter.com/youten410">
+              <img src="img/x-color.svg" alt="X" style="width: 15px; height: 15px;"> 旧Twitter
+            </a>
+          </li>
+
+          <li>
+            <a href="https://speakerdeck.com/youten410">
+              <img src="img/speakerdeck-color.svg" alt="speakerdeck" style="width: 15px; height: 15px;"> Speaker Deck
+            </a>
+          </li>
+
+          <li>
+            <a href="https://connpass.com/user/Hebereke_Tarou_/">
+              Connpass
+            </a>
+          </li>
+
+          <li>
+            <a href="https://sizu.me/youten410">
+              しずかなインターネット
+            </a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="top">
+      <h2 class="headline">ようこそ。ようてんのページへ。</h2>
+      <p class="comment">メディアの会社でアプリを開発しています📱<br>クラフトビールと音楽が好きです🍺</p>
+    </section>
+
+    <section id="apps" class="wrapper">
+      <h2 class="headline">今まで作ったアプリ</h2>
+
+      <div class="apps-list">
+        <div class="item">
+          <img src="img/eacon.png" alt="">
+          <h3 class="item-title">エアコンタイマー</h3>
+          <ul>
+            <li>Flutterで作ったアプリ。<br>エアコンの時間を指で数える光景を見て開発。</li>
+          </ul>
+          <a class="link-more" href="./timer.html" target="_blank">紹介ページ</a>
+        </div>
+
+        <div class="item">
+          <img src="img/news.png" alt="">
+          <h3 class="item-title">ニュースワイプ</h3>
+          <ul>
+            <li>Flutterで開発。<br>ニュースアプリの新しいUIを考案。</li>
+            <li>スワイプしながら見られるのが特徴。</li>
+          </ul>
+          <a class="link-more"
+            href="https://apps.apple.com/jp/app/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%83%AF%E3%82%A4%E3%83%97/id6449730247"
+            target="_blank">ダウンロード</a>
+        </div>
+
+        <div class="item">
+          <img src="img/megood.png" alt="">
+          <h3 class="item-title">me good</h3>
+          <ul>
+            <li>FlutterとFirebaseで開発</li>
+            <li>1日の終わりに自分に"いいね"を送る。<br>振り返りには、ChatGPTからフィードバックも。</li>
+          </ul>
+          <a class="link-more" href="./megood.html" target="_blank">紹介ページ</a>
+        </div>
+
+        <div class="item">
+          <img src="img/imugur.png" alt="">
+          <h3 class="item-title">Pick <br> Uploader</h3>
+          <ul>
+            <li>SwiftUIで開発。</li>
+            <li>画像共有サイトへのアップロードツール。</li>
+            <li>日本のみならず、海外でも利用されている。</li>
+          </ul>
+          <a class="link-more" href="https://apps.apple.com/jp/app/pickuploader/id6475726030" target="_blank">ダウンロード</a>
+        </div>
+
+        <div class="item">
+          <img src="img/map.png" alt="">
+          <h3 class="item-title">未定</h3>
+          <ul>
+            <li>SwiftUIとFirebaseで開発。</li>
+            <li>出かけた際にベンチを探せるアプリ。</li>
+            <li>ゴミ箱や自販機など、普通のマップには載らない情報を共有できるようにしていく予定。</li>
+            <li>7月リリース予定。</li>
+          </ul>
+          <a class="link-more" href="#">Comming Soon...</a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="wrapper">
+      <div class="text-area">
+        <p>
+          お問い合わせは、SNSのDMよりお待ちしております。
+        </p>
+      </div>
+
+      <div class="footer-menu">
+        <p class="copyright">Copyright © 204 ようてん</p>
+      </div>
+  </footer>
+
+</body>
+
+</html>
